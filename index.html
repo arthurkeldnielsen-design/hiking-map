@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiking Map</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏔️ Hiking Map</h1>
+            <p class="subtitle">Explore trails in your area</p>
+        </header>
+
+        <div class="content">
+            <aside class="sidebar">
+                <div class="controls">
+                    <h2>Trails</h2>
+                    <div id="trail-list" class="trail-list"></div>
+                </div>
+                <div class="stats">
+                    <p><strong id="trail-count">0</strong> trails loaded</p>
+                </div>
+            </aside>
+
+            <main>
+                <div id="map" class="map"></div>
+            </main>
+        </div>
+
+        <footer>
+            <p>Built with ❤️ | Data sources: OpenStreetMap, Leaflet.js</p>
+        </footer>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+    <!-- App JS -->
+    <script src="js/app.js"></script>
+</body>
+</html>
