@@ -1,0 +1,49 @@
+{
+  "trails": [
+    {
+      "name": "Twin Peaks Trail",
+      "latitude": 37.7549,
+      "longitude": -122.4477,
+      "difficulty": "moderate",
+      "distance": 1.5,
+      "elevation": 400,
+      "description": "Popular hike with panoramic city views. Well-maintained trail with clear path."
+    },
+    {
+      "name": "Lands End Trail",
+      "latitude": 37.7808,
+      "longitude": -122.5102,
+      "difficulty": "easy",
+      "distance": 3.2,
+      "elevation": 200,
+      "description": "Coastal trail with stunning ocean views. Great for sunset walks."
+    },
+    {
+      "name": "Mount Tamalpais Stealth Trail",
+      "latitude": 37.9215,
+      "longitude": -122.5915,
+      "difficulty": "difficult",
+      "distance": 5.8,
+      "elevation": 2100,
+      "description": "Challenging hike to the summit. Requires good fitness level. Incredible views on clear days."
+    },
+    {
+      "name": "Angel Island Loop",
+      "latitude": 37.8612,
+      "longitude": -122.4300,
+      "difficulty": "moderate",
+      "distance": 5.0,
+      "elevation": 800,
+      "description": "Island hike with varied terrain and historical sites. Ferry required to access."
+    },
+    {
+      "name": "Muir Woods National Monument",
+      "latitude": 37.8921,
+      "longitude": -122.5789,
+      "difficulty": "easy",
+      "distance": 2.2,
+      "elevation": 300,
+      "description": "Beautiful old-growth redwood forest. Easy, shaded walking paths."
+    }
+  ]
+}
